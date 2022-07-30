@@ -12,15 +12,16 @@ body {
   font-weight: 900;
   font-size: 14px;
   color: #ffffff;
+  /* #448aff */
   text-transform: uppercase;
-  background-color: #448aff;
+  background-color: #e8e8e8;
 
 }
 
 /* контейнер */
 .wrap {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   
   position: absolute;
   top: 10%;
@@ -29,13 +30,14 @@ body {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: #e5e5e5;
+  background-color: #ffffff;
 
   padding: 5px;
   display: grid;
   grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
   grid-gap: 5px;
   border-radius: 5px;
+  box-shadow: rgba(79, 79, 79, 1) 0 0 8px;
 }
 /* 3д карточка */
 .card {
