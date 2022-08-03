@@ -124,6 +124,10 @@ h1 {
 }
 
 .reset {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     grid-column: 2;
     text-decoration: none;
     display: inline-block;
