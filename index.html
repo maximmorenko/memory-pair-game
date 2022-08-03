@@ -4,25 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css">
-    <title>memory-pair-game</title>
+    <title>Memory game</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<div class="wrapper">
     <h1 class="title">memory pair game</h1>
-    <section class="pictures wrap">
+    <section class="board">
+       
     </section>
-    <button class="btn">reset</button>
-    <!-- Шаблон карточки -->
-    <template id="picture">
-        <a href="#" class="picture card">
-            <div class="front">
-                Front
-            </div>
-            <div class="back">
-                <img class="backImg" src="" width="100" height="100" alt="Случайная фотография">
-            </div>
-        </a>
-    </template>
-    <script type="module" src="src/index.js"></script>
+    <button class="reset">Reset</button>
+</div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
